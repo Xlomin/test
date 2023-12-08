@@ -1,0 +1,11 @@
+CREATE TABLE `weather` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `condition_text` varchar(255) DEFAULT NULL,
+  `humidity` varchar(255) DEFAULT NULL,
+  `location` varchar(255) DEFAULT NULL,
+  `pressure` varchar(255) DEFAULT NULL,
+  `temp` varchar(255) DEFAULT NULL,
+  `wind_speed` varchar(255) DEFAULT NULL,
+  `date` timestamp(6) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
